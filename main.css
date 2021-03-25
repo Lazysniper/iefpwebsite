@@ -26,6 +26,7 @@ h3 {
 }
 h4 {
     font-size: 1.2em;
+    margin-bottom: 10px;
 }
 h5 {
     margin-top: 5px;
@@ -97,8 +98,8 @@ body{
     
 .navbar-light .navbar-nav .nav-link:hover{
     color:white;
-    border: 1px solid white;
-    border-radius:15px    
+    font-weight: 900;
+      
 }
 .navbar-light .navbar-nav .nav-link:last-child:hover{
     color:white;
@@ -142,6 +143,7 @@ button.chamada:hover{
 #oevento .container-fluid{
     position: fixed;
     z-index: -1;
+    height:400px;
 }
 
 
@@ -263,6 +265,7 @@ section{
 }
 .titulo {
     font-weight: bold;
+    margin-bottom: 30px;
 }  /* classe criada por Jeni */
 .subtitle {
     color: #f9f9f9;
@@ -395,8 +398,12 @@ section{
 }
 */
 
+#cp{
+
+    color:#161152;
+}
 .card.orador h4, .card h4 {
-    margin: 0;
+    margin: 15px;
 }
 .card.orador .cardimg {
     background-color: gray;
@@ -407,13 +414,13 @@ section{
     overflow: hidden;
 }
 .card.orador img {
-    width: 150px;
+    /* width: 150px; */
 }
 .card.orador img.fotop {
     height: 160px;
     width: auto;
     max-width: auto;
-    transform: translate(-20%, 0);
+   
 }
 .card.orador a {
     text-align: left;
@@ -644,6 +651,7 @@ div.conteudo-marcador-azul{
     text-transform: uppercase;
     text-align: center;  
     margin-bottom: 40px;
+  
 }
 
 #cronograma{
@@ -735,7 +743,7 @@ aside{
 }
 #cronograma p{
     margin: 0;
-    margin-top: 4px;
+    margin-top: 15px;
     color: #f9f9f9;
     font-size: .9rem;
 }
@@ -816,28 +824,30 @@ min-height: max-content;
 }
 .texto-participar{
     width: 80%;
-    text-align: justify;
+    /* text-align: justify; */
+
     align-content: space-between;
     margin-top: 36px;
     font-size:1rem; 
 }
 .zoom{
     display: flex;
-    align-content: space-around;
+    /* align-content: space-around; */
     justify-content: space-around;
     margin-top: 55px;
-    padding: 10px;
+    
     width: 80%;
     margin-bottom: 50px;
 }
 
 .zoom h2{
-    color: #4E33CC;
+    color: #000000;
     font-size: 1.3rem;
+    line-height: 35px;
 
 }
 .texto-zoom{
-    width:60%;
+   
 }
 
 .zoom img{
@@ -1183,11 +1193,13 @@ width: 90px;
 
 .zoom h2{
     text-align: center;
+    
  
 }
 
 .texto-zoom{
     width: 100%;
+    font-weight: 900;
 }
 .first-sec{
     margin-top:  490px;
