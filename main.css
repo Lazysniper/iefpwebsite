@@ -54,6 +54,11 @@ body{
 
 }
 
+#eventoTitle  {
+
+    margin-top:120px;
+}
+
 
 .navbar{
     width: 100%;
@@ -213,6 +218,8 @@ section{
 }
 .first-sec{
     z-index: 1;
+    height:650px;
+    clear:both;
     margin-top: 610px;
     padding-top: 35px;
 }
@@ -267,6 +274,7 @@ section{
 }
 .titulo {
     font-weight: bold;
+    margin-top:40px;
     margin-bottom: 30px;
 }  /* classe criada por Jeni */
 .subtitle {
@@ -1037,6 +1045,7 @@ padding-top: 15px;
         max-height: 425px;
     }
     .first-sec{
+        height: 900px;
         margin-top:  517px;
     }
 
