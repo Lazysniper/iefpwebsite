@@ -18,7 +18,8 @@ h1 {
 
 }
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-left:10px;
 }
 h3 {
     font-size: 1.5em;
@@ -65,6 +66,7 @@ body{
     height: 80px;
     background-color: transparent;
     transition: all 500ms ease-out;
+    background-color: #117711;
 }
 
 .navbar-brand {
@@ -117,13 +119,13 @@ button.chamada:not(.rightbutton) {   /*NAO FUNCIONA*/
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
-    color: #1E0D60;
+    color: #117711;
     font-weight: 900;
     padding: .5rem .8rem;
     
 }
 button.chamada:hover{
-    color: #161152;
+    color: #117711;
 }
 /*Detalhe do active*/
 .navbar-light .navbar-nav .nav-link.active {
@@ -166,7 +168,7 @@ button.chamada:hover{
     font-family: 'Oswald', sans-serif;
     font-size: 1.9rem;
     color: #f9f9f9;
-    background-color: #1E0D60;
+    background-color: #117711;
     border-radius: 15px;
     padding: 10px;
     width: 257px;
@@ -281,7 +283,8 @@ section{
 
 /* Botão ver mais */
 .btn.vermais {
-    background-color: #1E0D60;
+    background-color: #094e09;
+    
     padding: .4rem 1.5rem;
     color: #ffffff;  
     display: block;
@@ -290,7 +293,7 @@ section{
 
 }
 .btn.vermais:hover {
-    background-color: #67298B;
+    background-color: #064106;
     color: #ffffff;
     border: 1px solid #ffffff;
 }
@@ -327,8 +330,8 @@ section{
     -webkit-box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     -moz-box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    background: rgb(103,41,139);
-    background: linear-gradient(180deg, rgba(103,41,139,1) 0%, rgba(30,13,96,1) 100%);
+    background: #117711;
+    background: linear-gradient(180deg, #117711 0%, #7FAC35 100%);
     color: #f9f9f9;
 }
 
@@ -366,6 +369,7 @@ section{
 
 .card.orador {
     width: 100%;
+    height:425px;
     text-align: center;
     padding: 20px 15px 10px 15px; 
     border-radius: 15px;
@@ -375,8 +379,8 @@ section{
     -webkit-box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     -moz-box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    background: rgb(103,41,139);
-    background: linear-gradient(180deg, rgba(103,41,139,1) 0%, rgba(30,13,96,1) 100%);
+    background: #117711;
+    background: linear-gradient(180deg, #117711 0%, #7FAC35 100%);
     color: #f9f9f9;
 }
 
@@ -400,7 +404,7 @@ section{
 
 #cp{
 
-    color:#161152;
+    color:#117711;
 }
 .card.orador h4, .card h4 {
     margin: 15px;
@@ -479,7 +483,7 @@ section{
 
 #cronograma h2 {
     margin: 0 auto;
-    color:#1E0D60;
+    color:#117711;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     text-align: center;  
@@ -487,7 +491,7 @@ section{
 }/*
 /*Dias impares*/
 /*.cronograma-fundo-azul{
-    background-color: #1E0D60;
+    background-color: #117711;
     color: #f9f9f9;
     width: auto;
     height:fit-content;
@@ -551,7 +555,7 @@ div.conteudo-marcador{
 .mini-marcador{
     border-radius: 15px;
     color: #f9f9f9;
-    background-color:#1E0D60;
+    background-color:#117711;
     height:40%;
     align-items: center;
     justify-content: center;
@@ -572,7 +576,7 @@ div.conteudo-marcador{
 /*Dias pares*/
 /*.cronograma-fundo-branco{
     background-color: #f9f9f9;
-    color: #1E0D60;
+    color: #117711;
     width: auto;
     height:fit-content;
     display: flex;
@@ -582,13 +586,13 @@ div.conteudo-marcador{
     text-transform: uppercase;
     font-weight:900;
     font-size:35px;  
-    color: #1e0d60;
+    color: #117711;
     margin-left: 30px;
     margin-top: 15px;
     }
 .marcador-azul{
     display: flex;
-    background-color: #1E0D60;
+    background-color: #117711;
     width: 95%;
     align-content: center;
     border-radius: 15px;
@@ -606,14 +610,14 @@ div.conteudo-marcador-azul{
     justify-items: center;
     align-items: center;
     flex-direction: column;
-    background-color: #1E0D60;
+    background-color: #117711;
     border-radius: 15px;
     justify-content: space-around;
     margin-right: 50px;
 }
 #orador-width-reverse{
     width: 100%;
-    background-color: #1E0D60;
+    background-color: #117711;
     color: #f9f9f9;
     word-break: break-all;
 }
@@ -641,12 +645,12 @@ div.conteudo-marcador-azul{
     height: 50px;
     margin: 10px;
     background-color: #f9f9f9;
-    color: #1E0D60;
+    color: #117711;
 }
 */
 /*NOVO CRONOGRAMA*/
 .crono-title{
-    color:#1E0D60;
+    color:#117711;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     text-align: center;  
@@ -677,7 +681,7 @@ div.conteudo-marcador-azul{
     align-content: center;
     width: 100%;
     margin-bottom: 15px;
-    background-color: #1E0D60;
+    background-color: #117711;
     border-radius: 15px;
 }
 
@@ -686,7 +690,7 @@ div.conteudo-marcador-azul{
     height: 35px;
     background-color:#f9f9f9;
     border-radius: 15px;
-    color:#1E0D60;
+    color:#117711;
     padding: 2px;
     display: flex;
     align-items: center;
@@ -698,7 +702,7 @@ div.conteudo-marcador-azul{
     width: 210px;
     background-color:#f9f9f9;
     border-radius: 15px;
-    color:#1E0D60;
+    color:#117711;
     padding: 2px;
     display: flex;
     align-items: center;
@@ -720,7 +724,7 @@ aside{
     margin-left: 10px;
 }
 #cronograma h4{
-    color:#1E0D60;
+    color:#117711;
     margin:0;
     font-size: 1.1rem;
 }
@@ -737,7 +741,7 @@ aside{
     font-weight: bolder;
     margin-top: 5px;
     margin:0 ;
-    color: #1E0D60;
+    color: #117711;
     text-decoration: none;
     font-size: 1rem;
 }
@@ -750,7 +754,7 @@ aside{
 
 /*BLUE*/
 .blue-bg{
-    background-color:#1E0D60;
+    background-color:#117711;
     width: 100%;
     display: flex;
     align-content: center;
@@ -768,11 +772,11 @@ aside{
 }
 
 .blue-bg .time{
-    background-color: #1E0D60;;
+    background-color: #117711;;
     color:#f9f9f9;
 }
 .blue-bg .empresa{
-    background-color: #1E0D60;
+    background-color: #117711;
     color: #f9f9f9;
 
 }
@@ -782,7 +786,7 @@ aside{
      position: absolute;
 }
 #cronograma  .blue-bg h3{
-    color: #1E0D60;
+    color: #117711;
     font-size: 1.1rem;
 }
 #cronograma .blue-bg h4{
@@ -795,7 +799,7 @@ aside{
     font-size: 1rem;
 }
 #cronograma .blue-bg p{
-    color: #1E0D60;
+    color: #117711;
     font-size: .9rem;
 }
 
@@ -819,15 +823,16 @@ aside{
 /*Como Participar*/
 .participar{
 display: flex;
-min-height: max-content;
+
 
 }
 .texto-participar{
-    width: 80%;
+    width: 90%;
+    margin-bottom: 50px;
     /* text-align: justify; */
 
     align-content: space-between;
-    margin-top: 36px;
+    margin-top: 10px;
     font-size:1rem; 
 }
 .zoom{
@@ -893,7 +898,7 @@ h5{
 #footer { 
     display: flex;
     background: rgb(103,41,139);
-    background: linear-gradient(180deg, rgba(103,41,139,1) 0%, rgba(30,13,96,1) 83%);
+    background: linear-gradient(180deg, #117711 0%, rgb(12, 58, 4) 83%);
     padding: 20px 20px;
     color: #f9f9f9;
   
@@ -976,7 +981,7 @@ padding-top: 15px;
         margin: 2px;
         min-width: 140px;
     }
-
+  
     .headoradores {
         margin-top: 10px; 
         font-size: 1.5rem;
@@ -1049,6 +1054,7 @@ padding-top: 15px;
     }
     .navbar-light .navbar-nav .nav-link {
     margin: 5px 0;
+    
     }
     .navbar-light .navbar-nav .nav-link.active::after {
     width: 0;
@@ -1074,6 +1080,14 @@ padding-top: 15px;
   
 }
 @media (max-width: 800px) {
+
+    .buttorino{
+
+     
+        background-color: #007c3e;
+        border-radius: 30px;
+        margin: 10px;
+    }
     .contador button.chamada {
         padding: .5rem 1rem;
     }

@@ -54,7 +54,7 @@ $('.navbar-nav>a').on('click', function(){
  });
 
  $('#noticias2').on('hide.bs.collapse', function () {
-   botao2.innerHTML = "Ver mais";
+   botao2.innerHTML = "Ver menos";
    scrollTo({top: noticiasTop, left: 0, behavior: 'smooth'});
  });
 
@@ -65,8 +65,7 @@ $('.navbar-nav>a').on('click', function(){
    botao3.innerHTML = "Ver menos"
  });
  $('#todosoradores').on('hide.bs.collapse', function () {
-   botao3.innerHTML = "Ver mais";
-   scrollTo({top: oradoresTop, left: 0, behavior: 'smooth'});
+
   });
 
 
